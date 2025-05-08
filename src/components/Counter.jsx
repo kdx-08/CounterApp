@@ -17,14 +17,14 @@ function Counter() {
     }
 
     return (
-        <div className="container" style={styles.container}>
-            <p className="count" style={styles.count}>{count}</p>
-            <div className="buttons" style={styles.buttons}>
-                <button onClick={decrementCount} className="button" style={styles.button}>Decrement</button>
-                <button onClick={resetCount} className="button" style={styles.button}>Reset</button>
-                <button onClick={incrementCount} className="button" style={styles.button}>Increment</button>
-            </div>
-        </div>
+        <div className="container">
+            <p className="count">{count}</p>
+            <div className="buttons">
+                <button onClick={decrementCount} className="button">Decrement</button>
+                <button onClick={resetCount} className="button">Reset</button>
+                <button onClick={incrementCount} className="button">Increment</button >
+            </div >
+        </div >
     );
 }
 
