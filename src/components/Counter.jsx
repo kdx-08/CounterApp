@@ -15,32 +15,6 @@ function Counter() {
         setCount(0);
     }
 
-    const styles = {
-        container: {
-            margin: 0,
-            padding: 0,
-            textAlign: "center",
-        },
-        count: {
-            fontFamily: "Arial sans-serif",
-            fontSize: "8rem",
-        },
-        buttons: {
-            margin: "20px",
-            padding: "20px",
-        },
-        button: {
-            color: "white",
-            backgroundColor: "rgb(0, 160, 255)",
-            border: "none",
-            borderRadius: "8px",
-            padding: "16px",
-            margin: "8px",
-            fontSize: "1.2rem",
-            cursor: "pointer",
-        }
-    };
-
     return (
         <div className="container" style={styles.container}>
             <p className="count" style={styles.count}>{count}</p>
